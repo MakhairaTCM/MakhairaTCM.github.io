@@ -1,19 +1,18 @@
-@import "Utils/animation.scss";
-@import "Utils/mixins.scss.scss";
-@import "Utils/variables.scss";
+@import "Utils/animation";
+@import "Utils/mixins";
+@import "Utils/variables";
 
-@import "Base/body.scss";
-@import "Base/fonts.scss";
+@import "Base/body";
+@import "Base/fonts";
 
-@import "Layout/explorer.scss";
-@import "Layout/fonctionnement.scss";
-@import "Layout/footer.scss";
-@import "Layout/header.scss";
-@import "Layout/restaurant.scss";
-@import "Layout/searchbar.scss";
+@import "Layout/explorer";
+@import "Layout/fonctionnement";
+@import "Layout/footer";
+@import "Layout/restaurant";
+@import "Layout/header";
 
-@import "Layout/headerPage.scss";
-@import "Layout/footerPage.scss";
-@import "Layout/menuPage.scss";
 
-@import "Loader/loader.scss";
+@import "Layout/menuPage";
+
+@import "Components/searchbar";
+@import "Components/loader";
