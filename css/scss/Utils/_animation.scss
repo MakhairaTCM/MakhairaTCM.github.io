@@ -1,16 +1,17 @@
-
-
-
-
 /*animation hover card menu*/
-
-.menuCard:hover .menuCheck i{
-  transition: all 0.5s ease-in ;
-  -o-transform:rotate(360deg);
-  -ms-transform:rotate(360deg);
-  -moz-transform:rotate(360deg);
-  -webkit-transform:rotate(360deg);
-  transform:rotate(360deg);
+.menuCard{
+  &:hover{
+    .menuCheck{
+      i{
+         transition: all 0.5s ease-in ;
+        -o-transform:rotate(360deg);
+        -ms-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg);
+      }
+    }
+  }
 }
 /*fin animation*/
 
@@ -23,6 +24,24 @@
     opacity: 1;
   }
 }
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 /*Card chargement pagemenu */
 .cardChargement {
   opacity: 0;

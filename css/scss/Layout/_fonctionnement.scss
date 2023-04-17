@@ -7,28 +7,28 @@
     flex-wrap: wrap;
     width: 98%;
 
-    @media (min-width: 992px) {
+    @media screen and (min-width: $tablet){
         flex-direction: row;
         #titreFonctionnement{
             width: 100%;
-          }
+        }
     }
     
     .CardFonctionnement{
         display: flex;
         flex-direction: row;
-        width: 80%;
+        width: 83%;
         align-items: center;
         justify-content: left;
         padding: 20px;
         background-color: $colorblancgris;
         border-radius: 30px;
-        margin-left: 20px;
+        margin-left: 2%;
         margin-bottom: 10px;
         cursor: pointer;
 
-        @media (min-width: 992px) {
-            width: 23%;
+        @media screen and (min-width: $tablet){
+            width: 25%;
             margin: auto;
 
         }

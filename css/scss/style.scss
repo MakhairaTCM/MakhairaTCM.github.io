@@ -1,18 +1,17 @@
+@import "Utils/variables";
 @import "Utils/animation";
 @import "Utils/mixins";
-@import "Utils/variables";
 
 @import "Base/body";
 @import "Base/fonts";
 
+@import "Components/searchbar";
+@import "Components/loader";
+
 @import "Layout/explorer";
 @import "Layout/fonctionnement";
 @import "Layout/footer";
-@import "Layout/restaurant";
 @import "Layout/header";
-
-
 @import "Layout/menuPage";
 
-@import "Components/searchbar";
-@import "Components/loader";
+@import "Pages/restaurant";
